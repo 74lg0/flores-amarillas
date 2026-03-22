@@ -11,6 +11,6 @@ onload = () => {
 
     // Actualizar texto si existe el nombre en la URL
     if (nombre && mensajeElemento) {
-        mensajeElemento.innerText = `Estas flores amarillas son para ti ${nombre} ♥`;
+        mensajeElemento.innerText = `♥ Estas flores amarillas son para ti ${nombre} ♥`;
     }
 };
